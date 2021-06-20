@@ -1,11 +1,11 @@
 <?xml version='1.0' standalone='yes'?>
 <extensions>
-  <optionsURL>plugins/PodcastExt/settings/basic.html</optionsURL>
   <targetApplication>
     <maxVersion>*</maxVersion>
     <id>SlimServer</id>
     <minVersion>8.2</minVersion>
   </targetApplication>
+  <optionsURL>plugins/PodcastExt/settings/basic.html</optionsURL>
   <defaultState>enabled</defaultState>
   <version>0.1</version>
   <name>PLUGIN_PODCASTEXT</name>
