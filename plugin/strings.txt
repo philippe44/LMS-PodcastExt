@@ -4,6 +4,12 @@ PLUGIN_PODCASTEXT
 PLUGIN_PODCASTEXT_DESC
 	EN	Add or extend Podcast plugin with other providers
 	
+PLUGIN_PODCASTEXT_PROVIDER_GUIDE
+	EN	Offers Apple/iTunes as a podcast provider and extend PodcastIndex to search accross trending feeds. 
+	EN	<br>Search parameters set the language(s) and categorie(s) "[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]". See https://podcastindex.org/
+	FR	Ajouter Apple/iTunes comme fournisseur de podcast et étend la recherche de PodcastIndex aux tendances. 
+	FR	Les paramètres de recherche permettent de spécifier les langues et les catégories "[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]". Voir (https://podcastindex.org/) 	
+	
 PLUGIN_PODCASTEXT_COUNTRY
 	EN	Country for feed search
 	FR	Pays pour la recherche des flux
@@ -12,14 +18,7 @@ PLUGIN_PODCASTEXT_COUNTRY_DESC
 	EN	Some Podcast aggregators can return feeds tailored to country. Set your 2-letters country code
 	FR	Certains concentrateurs de Podcast filtrent la recherche par pays. Indiquez ici les 2 lettres de votre code pays
 	
-PLUGIN_PODCASTEXT_PROVIDER_DESC
-	EN	Set the Podcast feeds provider (aggregator). 
-	EN	<br>- PodcastIndex lists the most feeds and also offers an extra option to search amongst trending feeds. Search parameters are then "[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]". See https://podcastindex.org/
-	EN	<br>- GPodder has a smaller list of referenced feeds and less frequenty updated
-	FR	Configurez le fournisseur (concentrateur) de Podcasts
-	FR	<br>- PodcastIndex reference le plus grand nombre de flux et offre un option de recherce parmi les flux populaires. Les options supplémentaire sont alors "[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]". Voir (https://podcastindex.org/) 
-	
 PLUGIN_PODCASTEXT_TRENDING
-	EN	Trending feeds (see provider for options)
-	FR	Flux Populaires (voir le fournisseur pour les options)
+	EN	Trending feeds (see options)
+	FR	Flux tendances (voir les options)
 	
