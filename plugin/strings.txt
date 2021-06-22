@@ -1,14 +1,18 @@
 PLUGIN_PODCASTEXT
 	EN	Podcast Extensions
+	FR	Extensions pour Podcast
 	
 PLUGIN_PODCASTEXT_DESC
 	EN	Add or extend Podcast plugin with other providers
+	FR	Ajouter ou étend les options des fournisseurs de Podcast
 	
 PLUGIN_PODCASTEXT_PROVIDER_GUIDE
-	EN	Offers Apple/iTunes as a podcast provider and extend PodcastIndex to search accross trending feeds. 
-	EN	<br>Search parameters set the language(s) and categorie(s) "[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]". See https://podcastindex.org/
-	FR	Ajouter Apple/iTunes comme fournisseur de podcast et étend la recherche de PodcastIndex aux tendances. 
-	FR	Les paramètres de recherche permettent de spécifier les langues et les catégories "[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]". Voir (https://podcastindex.org/) 	
+	EN	Offers Apple/iTunes as a podcast provider and extends PodcastIndex to search accross trending feeds. 
+	EN	<br>- iTunes needs to set the country for which podcast are listed
+	EN	<br>- PodcastIndex add a 'trending' search menu where additional parameters are available to set language and categories with this syntax: [lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]. See https://podcastindex.org/)
+	FR	Ajoute Apple/iTunes comme fournisseur de podcast et étend la recherche de PodcastIndex aux tendances. 
+	FR	<br>- iTunes demande de spécifier le pays de recherche 
+	FR	<br>- PodcastIndex ajoute une recherche pas 'tendances' avec des paramètres additionnels pour définir le language et les categories en utilisant la syntaxe suivante : [lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]]. Voir (https://podcastindex.org/) 	
 	
 PLUGIN_PODCASTEXT_COUNTRY
 	EN	Country for feed search

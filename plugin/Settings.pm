@@ -16,7 +16,10 @@ sub page {
 }
 
 sub prefs {
-	return ($prefs, qw(country));
+	my @items;
+	
+	push @items, qw(country) if preferences('plugin.podcast')->get('provider') eq 'Apple/iTunes';
+	return ($prefs, @items);
 }
 
 sub handler {

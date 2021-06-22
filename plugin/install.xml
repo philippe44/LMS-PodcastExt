@@ -7,7 +7,7 @@
     <minVersion>8.2</minVersion>
   </targetApplication>
   <defaultState>enabled</defaultState>
-  <version>0.2</version>
+  <version>0.3</version>
   <name>PLUGIN_PODCASTEXT</name>
   <description>PLUGIN_PODCASTEXT_DESC</description>
   <module>Plugins::PodcastExt::Plugin</module>
