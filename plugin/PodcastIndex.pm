@@ -31,5 +31,9 @@ sub getSearchParams {
 	}	
 }
 
+# there is no subclassing and registered provider still uses PodcastIndex's methods, 
+# we must signal they exist for can() requests
+sub newsHandler { 1 }
+
 
 1;
