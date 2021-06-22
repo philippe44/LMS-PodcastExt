@@ -13,7 +13,7 @@ sub getItems {
 	my $items = Slim::Plugin::Podcast::PodcastIndex->getItems($client);
 	splice @$items, 1, 0, {
 		title => cstring($client, 'PLUGIN_PODCASTEXT_TRENDING'),
-		image => 'plugins/Podcast/html/images/search.png',
+		image => 'html/images/search.png',
 	};
 	return $items;
 }
