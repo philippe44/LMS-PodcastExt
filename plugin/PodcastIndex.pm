@@ -6,13 +6,9 @@ use base qw(Slim::Plugin::Podcast::PodcastIndex);
 
 use Slim::Utils::Strings qw(string cstring);
 
-sub new {
-	return shift->SUPER::new;
-}	
-	
-sub getItems {
+sub getMenuItems {
 	my ($self, $client) = @_;
-	my $items = $self->SUPER::getItems($client);
+	my $items = $self->SUPER::getMenuItems($client);
 	splice @$items, 1, 0, {
 		title => cstring($client, 'PLUGIN_PODCASTEXT_TRENDING'),
 		image => 'html/images/search.png',
