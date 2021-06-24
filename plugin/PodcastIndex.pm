@@ -24,7 +24,7 @@ sub getSearchParams {
 		$search = join '&', @tags;
 		return ('https://api.podcastindex.org/api/1.0/podcasts/trending?' . $search, $self->getHeaders);
 	} else {
-		return $self->SUPER::($client, $item, $search);	
+		return $self->SUPER::getSearchParams($client, $item, $search);	
 	}	
 }
 
