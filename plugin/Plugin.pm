@@ -7,6 +7,9 @@ use Slim::Utils::Prefs;
 use Slim::Utils::Log;
 use Slim::Plugin::Podcast::Plugin;
 
+use Plugins::PodcastExt::iTunes;
+use Plugins::PodcastExt::PodcastIndex;
+
 my	$log = Slim::Utils::Log->addLogCategory({
 	'category'     => 'plugin.podcastext',
 	'defaultLevel' => 'ERROR',
@@ -18,11 +21,8 @@ my $prefs = preferences('plugin.podcastext');
 sub initPlugin {
 	my $class = shift;
 	
-	# make sure we load the provider we want to replace first
-	require Slim::Plugin::Podcast::PodcastIndex;
-	require Plugins::PodcastExt::PodcastIndex;
-	
-	require Plugins::PodcastExt::iTunes;
+	Slim::Plugin::Podcast::Plugin::registerProvider(Plugins::PodcastExt::iTunes->new);
+	Slim::Plugin::Podcast::Plugin::registerProvider(Plugins::PodcastExt::PodcastIndex->new);
 	
 	$class->SUPER::initPlugin;
 
