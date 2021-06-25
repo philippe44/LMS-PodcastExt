@@ -22,7 +22,7 @@ sub initPlugin {
 	my $class = shift;
 	
 	Slim::Plugin::Podcast::Plugin::registerProvider('Plugins::PodcastExt::iTunes');
-	Slim::Plugin::Podcast::Plugin::registerProvider('Plugins::PodcastExt::PodcastIndex');
+	Slim::Plugin::Podcast::Plugin::registerProvider('Plugins::PodcastExt::PodcastIndex', 1);
 	
 	$class->SUPER::initPlugin;
 
