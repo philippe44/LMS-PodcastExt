@@ -10,7 +10,7 @@ sub getMenuItems {
 	my ($self, $client) = @_;
 	my $items = $self->SUPER::getMenuItems($client);
 	splice @$items, 1, 0, {
-		title => cstring($client, 'PLUGIN_PODCASTEXT_TRENDING'),
+		name => cstring($client, 'PLUGIN_PODCASTEXT_TRENDING'),
 		image => 'html/images/search.png',
 	};
 	return $items;
@@ -19,7 +19,7 @@ sub getMenuItems {
 sub getSearchParams {
 	my ($self, $client, $item, $search) = @_;
 
-	if ($item->{title} eq cstring($client, 'PLUGIN_PODCASTEXT_TRENDING')) {
+	if ($item->{name} eq cstring($client, 'PLUGIN_PODCASTEXT_TRENDING')) {
 		my @tags = split / /, $search;
 		$search = join '&', @tags;
 		return ('https://api.podcastindex.org/api/1.0/podcasts/trending?' . $search, $self->getHeaders);
