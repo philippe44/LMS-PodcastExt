@@ -8,6 +8,8 @@ use Slim::Utils::Prefs;
 
 my $prefs = preferences('plugin.podcastext');
 
+sub hasCountry { 1 }
+
 sub getFeedsIterator {
 	my ($self, $feeds) = @_;
 
@@ -31,7 +33,7 @@ sub getFeedsIterator {
 
 sub getSearchParams {
 	my $url = 'https://itunes.apple.com/search?media=podcast&term=' . $_[3];
-	my $country = $prefs->get('country');
+	my $country = preferences('plugin.podcast')->get('country') // $prefs->get('country');
 	$url .= "&country=$country" if $country;
 	# iTunes kindly sends us in a redirection loop when we use default LMS user-agent
 	return ($url, [ 'User-Agent', 'Mozilla/5.0' ]);

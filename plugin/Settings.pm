@@ -17,8 +17,9 @@ sub page {
 
 sub prefs {
 	my @items;
+	my $provider = Slim::Plugin::Podcast::Plugin::getProviderByName;
 	
-	push @items, qw(country) if preferences('plugin.podcast')->get('provider') eq 'Apple/iTunes';
+	push @items, qw(country) if !defined preferences('plugin.podcast')->get('country') && $provider->can('hasCountry') && $provider->hasCountry;
 	return ($prefs, @items);
 }
 

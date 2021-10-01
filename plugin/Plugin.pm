@@ -8,7 +8,6 @@ use Slim::Utils::Log;
 use Slim::Plugin::Podcast::Plugin;
 
 use Plugins::PodcastExt::iTunes;
-#use Plugins::PodcastExt::PodcastIndex;
 
 my	$log = Slim::Utils::Log->addLogCategory({
 	'category'     => 'plugin.podcastext',
