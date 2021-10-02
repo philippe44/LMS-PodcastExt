@@ -25,7 +25,7 @@ sub prefs {
 
 sub handler {
 	my ($class, $client, $params, $pageSetup) = @_;
-	
+
 	return $class->SUPER::handler($client, $params, $pageSetup);
 }
 
