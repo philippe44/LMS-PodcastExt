@@ -1,10 +1,12 @@
 PLUGIN_PODCASTEXT
 	EN	Podcast Extensions
 	FR	Extensions pour Podcast
+	NL	Podcast Extensie
 	
 PLUGIN_PODCASTEXT_DESC
 	EN	Add or extend Podcast plugin with other providers
 	FR	Ajouter ou étend les options des fournisseurs de Podcast
+	NL	Voeg meer podcast aanbieders toe aan de podcast plug-in
 	
 PLUGIN_PODCASTEXT_PROVIDER_GUIDE
 	EN	Offers Apple/iTunes as a podcast provider and extends PodcastIndex to search accross trending feeds. 
@@ -13,16 +15,22 @@ PLUGIN_PODCASTEXT_PROVIDER_GUIDE
 	FR	Ajoute Apple/iTunes comme fournisseur de podcast et étend la recherche de PodcastIndex aux tendances. 
 	FR	<br>- iTunes demande de spécifier le pays de recherche 
 	FR	<br>- PodcastIndex ajoute une recherche pas 'tendances' avec des paramètres additionnels pour définir le language et les categories en utilisant la syntaxe suivante : <br>[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]] (ex "lang=FR cat=News" - voir (https://podcastindex.org/) 	
-	
+	NL	Voeg Apple/iTunes als podcast aanbieder toe en breidt de mogelijkheden van PodCastIndex uit om te zoeken in trending feeds.
+	NL	<br>- iTunes vraagt om het land op te geven waarvoor je podcasts zoekt.
+	NL	<br>- Voegt een 'trending' zoekmenu toe aan PodcastIndex. Extra parameters zijn beschikbaar om taal en categorieën in te stellen met de volgende syntaxis: <br>[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]] (ex "lang=NL cat=News" - zie (https://podcastindex.org/)
+
 PLUGIN_PODCASTEXT_COUNTRY
 	EN	Country for feed search
 	FR	Pays pour la recherche des flux
+	NL	Land voor zoeken van feeds
 	
 PLUGIN_PODCASTEXT_COUNTRY_DESC
 	EN	Some Podcast aggregators can return feeds tailored to country. Set your 2-letters country code
 	FR	Certains concentrateurs de Podcast filtrent la recherche par pays. Indiquez ici les 2 lettres de votre code pays
+	NL	Sommige Podcast aggregators kunnen feeds retourneren die zijn afgestemd op het land. Stel uw 2-letterige landcode in (bijv. nl)
 	
 PLUGIN_PODCASTEXT_TRENDING
 	EN	Trending feeds (see options)
 	FR	Flux tendances (voir les options)
+	NL	Trending feeds (bekijk opties)
 	
