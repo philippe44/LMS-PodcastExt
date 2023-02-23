@@ -7,7 +7,7 @@ PLUGIN_PODCASTEXT_DESC
 	FR	Ajouter ou étend les options des fournisseurs de Podcast
 	
 PLUGIN_PODCASTEXT_PROVIDER_GUIDE
-	EN	Offers Apple/iTunes as a podcast provider and extends PodcastIndex to search accross trending feeds. 
+	EN	Offers Apple/iTunes as a podcast provider and extends PodcastIndex to search across trending feeds. 
 	EN	<br>- iTunes needs to set the country for which podcast are listed
 	EN	<br>- PodcastIndex add a 'trending' search menu where additional parameters are available to set language and categories with this syntax  <br>[lang=&ltlang1&gt[,&ltlang2&gt]] [cat=&ltcat1&gt[,&ltcat2&gt]] (e.g. "lang=EN cat=News" - see https://podcastindex.org/).
 	FR	Ajoute Apple/iTunes comme fournisseur de podcast et étend la recherche de PodcastIndex aux tendances. 
@@ -19,7 +19,7 @@ PLUGIN_PODCASTEXT_COUNTRY
 	FR	Pays pour la recherche des flux
 	
 PLUGIN_PODCASTEXT_COUNTRY_DESC
-	EN	Some Podcast aggregators can return feeds tailored to country. Set your 2-letters country code
+	EN	Some Podcast aggregators can return feeds tailored to country. Set your 2-letter country code
 	FR	Certains concentrateurs de Podcast filtrent la recherche par pays. Indiquez ici les 2 lettres de votre code pays
 	
 PLUGIN_PODCASTEXT_TRENDING
